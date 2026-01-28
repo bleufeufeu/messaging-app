@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Chat" ADD COLUMN     "lastupdated" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "name" TEXT;
